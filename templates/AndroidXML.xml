@@ -1,0 +1,7 @@
+<templateSet group="AndroidXML">
+  <template name="step" value="android:visibility=&quot;@{isEditable?viewState.visibleIfEquals(ViewState.STATE_$SELECTION$$END$):viewState.visibleIfGreater(ViewState.STATE_$SELECTION$$END$)}&quot;" description="Step Hinzufügen" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

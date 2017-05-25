@@ -1,0 +1,16 @@
+<templateSet group="Bul">
+  <template name="mn" value="$METHOD_NAME$" description="Methoden Name" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="cn" value="$CLASS_NAME$" description="ClassName" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+</templateSet>

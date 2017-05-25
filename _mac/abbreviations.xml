@@ -1,0 +1,15 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="FileStructurePopup">
+        <abbreviation name="fs" />
+      </action>
+      <action id="SwitchBootJdk">
+        <abbreviation name="jdk" />
+      </action>
+      <action id="ShowRegistry">
+        <abbreviation name="reg" />
+      </action>
+    </abbreviations>
+  </component>
+</application>
